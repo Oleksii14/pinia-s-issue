@@ -1,4 +1,3 @@
-import { ref, computed } from 'vue'
 import { defineStore, getActivePinia } from 'pinia'
 
 export const useCounterStore = defineStore('test', () => {
